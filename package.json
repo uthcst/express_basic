@@ -1,7 +1,7 @@
 {
-  "name": "nodejs_files",
+  "name": "nodejs_hello",
   "version": "1.0.0",
-  "description": "nodejs modules",
+  "description": "nodejs express_basic",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -9,20 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uthcst/nodejs_files.git"
+    "url": "git+https://github.com/uthcst/express_basic.git"
   },
   "keywords": [
     "nodejs",
-    "modules"
+    "hello"
   ],
   "author": "uthcst",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/uthcst/nodejs_files/issues"
+    "url": "https://github.com/uthcst/express_basic/issues"
   },
-  "homepage": "https://github.com/uthcst/nodejs_files#readme",
+  "homepage": "https://github.com/uthcst/express_basic#readme",
   "dependencies": {
-    "events": "^3.3.0",
-    "upper-case": "^2.0.2"
+    "express": "^4.18.2"
   }
 }
